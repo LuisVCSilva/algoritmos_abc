@@ -1,0 +1,172 @@
+	<><><><><><><><><><><><><><><>
+	<><><><><><><><><><><><><><><>
+	>>>>>>LISTA DE EXERCÍCIOS 2<<<<<
+	>>>>>LUIS VINICIUS COSTA SILVA<<<
+	>>>>APC I - Ciência da Computação<<<
+	>>>>>>>>>>>1º Período<<<<<<<<<<<
+	<><><><><><><><><><><><><><><>
+	<><><><><><><><><><><><><><><>
+
+L2.01 .Qual a finalidade de declararmos uma variável ? 
+
+R : . Alocar um espaço na memória principal para armazenar
+um tipo de dado específico e ser alterado ou não durante o 
+processo(geralmente é alterado,senão declara-se uma constante).
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L2.02. Exemplifique o uso da operação de atribuição. 
+
+R : . 
+//Em C
+int x = 0; 
+
+int main () {
+x = 1;
+return 0;
+}
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L2.03. Qual a finalidade de uma operação de entrada ?
+Dê exemplos.
+
+R : . Ler dados do usuário através de qualquer dispositivo,
+para geralmente depois processar tal dado e exibir um novo
+dado processado ao usuário com base na sua entrada.
+
+//Em C
+int x = 0;
+
+int main () {
+printf("Entre com o valor: ",&x);
+scanf("%d",&x);//LENDO DADOS
+printf("\nO dobro de %d eh %d",x,x*2);
+getch();
+return 0;
+}
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L2.04. Qual a finalidade de uma operação de saída? 
+Dê exemplos.
+
+R : . Exibir dados ao usuário através de um dispositivo de saída qualquer,
+tais dados geralmente sofrem algum tipo de processamento antes de serem
+mostrados.
+
+//Em C
+
+int x = 0;
+
+int main () {
+printf("Entre com o valor: ",&x);
+scanf("%d",&x);
+printf("\nO triplo de %d eh %d",x,x*3);//EXIBINDO DADOS
+getch();
+return 0;
+}
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L2.05. Qual a finalidade de um comentário dentro de 
+um algoritmo? Como deve ser escrito?
+
+R : . A importância de comentários em um algoritmo é a
+explicação em uma linguagem natural do que se trata tal
+parte do código,fornecendo explicações mais intelígiveis para
+quem lê o código.Também é muito útil para marcar trechos de código
+que não devem ser executados por não estarem prontos ainda.
+Pode ser escrito em apenas uma linha usando o prefixo "//" ou em um
+intervalo de várias linhas usando o prefixo "/*" para abrir o bloco de comentários
+e o sufixo "*/" para fechar o bloco de comentários.
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L2.06. Escreva os comandos necessários para 
+declarar:
+
+a) uma variável que receba uma frase qualquer;
+
+R :: A .
+//Em portugol
+frase : literal
+
+
+
+b) três variáveis que recebam as 3 notas de um aluno 
+
+R :: B .
+//Em portugol
+n1,n2,n3 : real
+}
+
+
+c) uma variável que receba a idade de uma pessoa
+
+R :: C .
+//Em portugol
+idade : int
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L02.07. Escreva os comandos necessários para ler: 
+a) as 3 notas de um aluno
+R :: A .
+
+//Em portugol
+
+leia(n1,n2,n3)
+
+b) o nome, o peso e altura de uma pessoa
+R :: B .
+
+//Em portugol
+
+leia(peso,altura,nome)//
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+L02.08. Escreva os comandos necessários para exibir:
+
+a) o conteúdo da variável X
+R :: A .
+
+// Em portugol
+algoritmo "semnome"
+var
+x : literal
+inicio
+x <- "spy!"
+escreva(x)
+fimalgoritmo
+
+b) o resultado da expressão 2+3 
+R :: B .
+
+//Em portugol
+algoritmo "semnome"
+var
+inicio
+escreva(2+3)
+fimalgoritmo
+
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+<><><><><><><><><><><><><><><><><><><><><><><><><>
+
+  
